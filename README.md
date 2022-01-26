@@ -4,7 +4,7 @@ Fcitx5 theme based on Catppuccin color.
 
 ## Screenshot
 
-![image-20220127000712087](https://s2.loli.net/2022/01/27/C7ucZgqyW9SUbm3.png)
+![image-20220127000712087](https://user-images.githubusercontent.com/61657399/151201222-d882321d-8c65-4d28-9d79-790e8d541eb4.png)
 
 ## Usage
 
