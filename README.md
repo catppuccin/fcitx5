@@ -21,23 +21,30 @@
 
 ```sh
 git clone https://github.com/catppuccin/fcitx5.git # or with SSH
-mkdir -p ~/.local/share/fcitx5/themes/Catppuccin
-cp -r ./fcitx5-catppuccin/* ~/.local/share/fcitx5/themes/Catppuccin/
+mkdir -p ~/.local/share/fcitx5/themes/
+cp -r ./fcitx5/Catppuccin ~/.local/share/fcitx5/themes
 ```
 
-### Enabling
+### Enabling (Manually)
 
-In `~/.config/fcitx5/conf/classicui.conf`, change the `Theme` line as
+In `~/.config/fcitx5/conf/classicui.conf`, change the `Theme` variable to:
 
 ```dosini
 Theme=Catppuccin
 ```
 
-Then restart fcitx5 to apply the theme.
+Later restart Fcitx5 to apply the theme.
 
 ```sh
 fcitx5 -r
 ```
+
+### Enabling (GUI)
+
+1. Navigate to `Fcitx5 Configuration` application through your application launcher.
+2. Select the `Addons` Tab.
+3. Select the setting icon (gear-wheel) for `Classical User Interface`, located to the right.
+4. Apply Catppuccin as the desired fcitx5 theme by navigating to `Theme` and later selecting Catppuccin.
 
 ## 💝 Thanks to
 
