@@ -6,7 +6,7 @@
 </h3>
 
 <p align="center">
-    <a href="https://github.com/catppuccin/fcitx5/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/fcitx5?colorA=363a4f&colorB=b7bdf8&style=for-the-badge style=for-the-badgestyle=for-the-badge"></a>
+    <a href="https://github.com/catppuccin/fcitx5/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/fcitx5?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
     <a href="https://github.com/catppuccin/fcitx5/issues"><img src="https://img.shields.io/github/issues/catppuccin/fcitx5?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
     <a href="https://github.com/catppuccin/fcitx5/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/fcitx5?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
