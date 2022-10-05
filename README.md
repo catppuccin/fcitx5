@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/preview.png"/>
+  <img src="assets/preview.webp"/>
 </p>
 
 ## Usage
@@ -22,7 +22,7 @@
 ```sh
 git clone https://github.com/catppuccin/fcitx5.git # or with SSH
 mkdir -p ~/.local/share/fcitx5/themes/
-cp -r ./fcitx5/Catppuccin ~/.local/share/fcitx5/themes
+cp -r ./fcitx5/src/catppuccin-flavour ~/.local/share/fcitx5/themes
 ```
 
 ### Enabling (Manually)
@@ -30,7 +30,7 @@ cp -r ./fcitx5/Catppuccin ~/.local/share/fcitx5/themes
 In `~/.config/fcitx5/conf/classicui.conf`, change the `Theme` variable to:
 
 ```dosini
-Theme=Catppuccin
+Theme=catppuccin-flavour
 ```
 
 Later restart Fcitx5 to apply the theme.
@@ -44,11 +44,13 @@ fcitx5 -r
 1. Navigate to `Fcitx5 Configuration` application through your application launcher.
 2. Select the `Addons` Tab.
 3. Select the setting icon (gear-wheel) for `Classical User Interface`, located to the right.
-4. Apply Catppuccin as the desired fcitx5 theme by navigating to `Theme` and later selecting Catppuccin.
+4. Apply Catppuccin as the desired fcitx5 theme by navigating to `Theme` and later selecting Catppuccin *Flavour*.
 
 ## 💝 Thanks to
 
 - [ayamir](https://github.com/ayamir)
+- [Isabelincorp](https://github.com/isabelincorp)
+- [justTOBBI](https://github.com/justTOBBI)
 
 &nbsp;
 
