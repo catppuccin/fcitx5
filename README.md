@@ -20,9 +20,9 @@
 ### Installation
 
 ```sh
-git clone https://github.com/catppuccin/fcitx5.git # or with SSH
+git clone https://github.com/catppuccin/fcitx5.git
 mkdir -p ~/.local/share/fcitx5/themes/
-cp -r ./fcitx5/src/catppuccin-flavour ~/.local/share/fcitx5/themes
+cp -r ./fcitx5/src/* ~/.local/share/fcitx5/themes
 ```
 
 ### Enabling (Manually)
@@ -30,7 +30,7 @@ cp -r ./fcitx5/src/catppuccin-flavour ~/.local/share/fcitx5/themes
 In `~/.config/fcitx5/conf/classicui.conf`, change the `Theme` variable to:
 
 ```dosini
-Theme=catppuccin-flavour
+Theme=catppuccin-mocha # or macchiato, frappe, latte
 ```
 
 Later restart Fcitx5 to apply the theme.
