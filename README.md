@@ -27,10 +27,19 @@ cp -r ./fcitx5/src/* ~/.local/share/fcitx5/themes
 
 ### Enabling (Manually)
 
-In `~/.config/fcitx5/conf/classicui.conf`, change the `Theme` variable to:
+In `~/.config/fcitx5/conf/classicui.conf`, change the `Theme` variable to the following format:
 
 ```dosini
-Theme=catppuccin-mocha # or macchiato, frappe, latte
+Theme=catppuccin-{flavour}-{accent}
+```
+
+**Flavour** can be one of the following: *latte*, *frappe*, *macchiato* or *mocha*
+
+**Accent** can be one of the following: *rosewater*, *flamingo*, *pink*, *mauve*, *red*, *maroon*, *peach*, *yellow*, *green*, *teal*, *sky*, *sapphire*, *blue* or *lavender*
+
+e.g.
+```dosini
+Theme=catppuccin-mocha-maroon
 ```
 
 Later restart Fcitx5 to apply the theme.
@@ -44,7 +53,7 @@ fcitx5 -r
 1. Navigate to `Fcitx5 Configuration` application through your application launcher.
 2. Select the `Addons` Tab.
 3. Select the setting icon (gear-wheel) for `Classical User Interface`, located to the right.
-4. Apply Catppuccin as the desired fcitx5 theme by navigating to `Theme` and later selecting Catppuccin *Flavour*.
+4. Apply Catppuccin as the desired fcitx5 theme by navigating to `Theme` and later selecting Catppuccin *Flavour* *Accent*.
 
 ## 💝 Thanks to
 
