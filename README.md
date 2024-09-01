@@ -39,7 +39,7 @@ Theme=catppuccin-{flavour}-{accent}
 
 e.g.
 ```dosini
-Theme=catppuccin-mocha-maroon
+Theme=catppuccin-mocha-mauve
 ```
 
 Later restart Fcitx5 to apply the theme.
