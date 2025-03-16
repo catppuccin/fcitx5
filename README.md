@@ -60,6 +60,7 @@ fcitx5 -r
 - [ayamir](https://github.com/ayamir)
 - [Isabelincorp](https://github.com/isabelincorp)
 - [justTOBBI](https://github.com/justTOBBI)
+- [Kurome](https://github.com/kuromedayo)
 
 &nbsp;
 
