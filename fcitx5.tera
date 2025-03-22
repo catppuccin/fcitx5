@@ -1,6 +1,6 @@
 ---
 whiskers:
-  version: 2.4.0
+  version: 2.5.1
   matrix:
     - flavor
     - accent
@@ -15,39 +15,35 @@ Description=Catppuccin {{flavor.name}} {{flavor.colors[accent].name}} Color Them
 ScaleWithDPI=True
 
 [InputPanel]
-# 字体
 Font=Sans 13
-# 非选中候选字颜色
-# {{blue.name}}
-NormalColor=#{{blue.hex}}
-# 选中候选字颜色
-# {{flavor.colors[accent].name}}
-HighlightCandidateColor=#{{flavor.colors[accent].hex}}
-# 高亮前景颜色(输入字符颜色)
+
+# Unselected candidate color
+# {{text.name}}
+NormalColor=#{{text.hex}}
+
+# Selected candidate color
+# {{base.name}}
+HighlightCandidateColor=#{{base.hex}}
+
+# Input character color
 # {{flavor.colors[accent].name}}
 HighlightColor=#{{flavor.colors[accent].hex}}
-# 输入字符背景颜色
+
+# Input character background color
 # {{surface0.name}}
 HighlightBackgroundColor=#{{surface0.hex}}
 
 Spacing=3
 
 [InputPanel/TextMargin]
-# 候选字对左边距
 Left=10
-# 候选字对右边距
 Right=10
-# 候选字向上边距
 Top=6
-# 候选字向下边距
 Bottom=6
 
 [InputPanel/Background]
 # {{surface0.name}}
 Color=#{{surface0.hex}}
-# {{surface0.name}}
-BorderColor=#{{surface0.hex}}
-BorderWidth=2
 
 [InputPanel/Background/Margin]
 Left=2
@@ -56,17 +52,13 @@ Top=2
 Bottom=2
 
 [InputPanel/Highlight]
-# {{surface0.name}}
-Color=#{{surface0.hex}}
+# {{flavor.colors[accent].name}}
+Color=#{{flavor.colors[accent].hex}}
 
 [InputPanel/Highlight/Margin]
-# 高亮区域左边距
 Left=10
-# 高亮区域右边距
 Right=10
-# 高亮区域上边距
 Top=7
-# 高亮区域下边距
 Bottom=7
 
 [Menu]

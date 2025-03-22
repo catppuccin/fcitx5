@@ -12,8 +12,27 @@
 </p>
 
 <p align="center">
-  <img src="assets/preview.webp"/>
+  <img src="assets/preview.webp" width="500">
 </p>
+
+## Previews
+
+<details>
+<summary>🌻 Latte</summary>
+<img src="assets/latte.webp"/>
+</details>
+<details>
+<summary>🪴 Frappé</summary>
+<img src="assets/frappe.webp"/>
+</details>
+<details>
+<summary>🌺 Macchiato</summary>
+<img src="assets/macchiato.webp"/>
+</details>
+<details>
+<summary>🌿 Mocha</summary>
+<img src="assets/mocha.webp"/>
+</details>
 
 ## Usage
 
@@ -60,6 +79,7 @@ fcitx5 -r
 - [ayamir](https://github.com/ayamir)
 - [Isabelincorp](https://github.com/isabelincorp)
 - [justTOBBI](https://github.com/justTOBBI)
+- [Kurome](https://github.com/kuromedayo)
 
 &nbsp;
 
