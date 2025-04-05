@@ -20,18 +20,22 @@
 <details>
 <summary>🌻 Latte</summary>
 <img src="assets/latte.webp"/>
+<img src="assets/latte-rounded.webp"/>
 </details>
 <details>
 <summary>🪴 Frappé</summary>
 <img src="assets/frappe.webp"/>
+<img src="assets/frappe-rounded.webp"/>
 </details>
 <details>
 <summary>🌺 Macchiato</summary>
 <img src="assets/macchiato.webp"/>
+<img src="assets/macchiato-rounded.webp"/>
 </details>
 <details>
 <summary>🌿 Mocha</summary>
 <img src="assets/mocha.webp"/>
+<img src="assets/mocha-rounded.webp"/>
 </details>
 
 ## Usage
@@ -52,6 +56,12 @@ In `~/.config/fcitx5/conf/classicui.conf`, change the `Theme` variable to the fo
 Theme=catppuccin-{flavour}-{accent}
 ```
 
+Or, if you prefer a rounded border:
+
+```dosini
+Theme=catppuccin-{flavour}-{accent}-rounded
+```
+
 **Flavour** can be one of the following: *latte*, *frappe*, *macchiato* or *mocha*
 
 **Accent** can be one of the following: *rosewater*, *flamingo*, *pink*, *mauve*, *red*, *maroon*, *peach*, *yellow*, *green*, *teal*, *sky*, *sapphire*, *blue* or *lavender*
@@ -60,6 +70,8 @@ e.g.
 ```dosini
 Theme=catppuccin-mocha-mauve
 ```
+
+See [Palette](https://catppuccin.com/palette/).
 
 Later restart Fcitx5 to apply the theme.
 

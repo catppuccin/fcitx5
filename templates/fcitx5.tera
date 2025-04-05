@@ -1,0 +1,110 @@
+---
+whiskers:
+  version: 2.5.1
+  matrix:
+    - flavor
+    - accent
+  filename: "src/catppuccin-{{flavor.identifier}}-{{accent}}/theme.conf"
+---
+# vim: ft=dosini
+[Metadata]
+Name=Catppuccin {{flavor.name}} {{flavor.colors[accent].name}}
+Version=0.2
+Author=justTOBBI and Isabelinc
+Description=Catppuccin {{flavor.name}} {{flavor.colors[accent].name}} Color Theme
+ScaleWithDPI=True
+
+[InputPanel]
+Font=Sans 13
+
+# Unselected candidate color
+# {{text.name}}
+NormalColor=#{{text.hex}}
+
+# Selected candidate color
+# {{base.name}}
+HighlightCandidateColor=#{{base.hex}}
+
+# Input character color
+# {{flavor.colors[accent].name}}
+HighlightColor=#{{flavor.colors[accent].hex}}
+
+# Input character background color
+# {{surface0.name}}
+HighlightBackgroundColor=#{{surface0.hex}}
+
+Spacing=3
+
+[InputPanel/TextMargin]
+Left=10
+Right=10
+Top=6
+Bottom=6
+
+[InputPanel/Background]
+# {{surface0.name}}
+Color=#{{surface0.hex}}
+
+[InputPanel/Background/Margin]
+Left=2
+Right=2
+Top=2
+Bottom=2
+
+[InputPanel/Highlight]
+# {{flavor.colors[accent].name}}
+Color=#{{flavor.colors[accent].hex}}
+
+[InputPanel/Highlight/Margin]
+Left=10
+Right=10
+Top=7
+Bottom=7
+
+[Menu]
+Font=Sans 10
+# {{text.name}}
+NormalColor=#{{text.hex}}
+Spacing=3
+
+[Menu/Background]
+# {{surface0.name}}
+Color=#{{surface0.hex}}
+
+[Menu/Background/Margin]
+Left=2
+Right=2
+Top=2
+Bottom=2
+
+[Menu/ContentMargin]
+Left=2
+Right=2
+Top=2
+Bottom=2
+
+[Menu/Highlight]
+# {{pink.name}}
+Color=#{{pink.hex}}
+
+[Menu/Highlight/Margin]
+Left=10
+Right=10
+Top=5
+Bottom=5
+
+[Menu/Separator]
+# {{base.name}}
+Color=#{{base.hex}}
+
+[Menu/CheckBox]
+Image=radio.png
+
+[Menu/SubMenu]
+Image=arrow.png
+
+[Menu/TextMargin]
+Left=5
+Right=5
+Top=5
+Bottom=5
