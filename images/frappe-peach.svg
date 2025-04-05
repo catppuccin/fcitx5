@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="39"
+   height="39"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="frappe-peach.svg"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="16"
+     inkscape:cx="15.03125"
+     inkscape:cy="18.3125"
+     inkscape:window-width="1904"
+     inkscape:window-height="1033"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="Layer_1" />
+  <g
+     id="Layer_1">
+    <title
+       id="title1">Layer 1</title>
+    <rect
+       id="svg_1"
+       width="39"
+       height="39"
+       x="0"
+       y="0"
+       fill="#015ad7"
+       stroke="#000"
+       stroke-width="0"
+       rx="12"
+       style="fill:#ef9f76;fill-opacity:1" />
+  </g>
+</svg>
