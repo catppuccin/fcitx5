@@ -9,31 +9,27 @@ whiskers:
 # vim: ft=dosini
 [Metadata]
 Name=Catppuccin {{flavor.name}} {{flavor.colors[accent].name}}
-Version=0.2
-Author=justTOBBI and Isabelinc
+Version=1.0
+Author=justTOBBI, Isabelinc, Kurome
 Description=Catppuccin {{flavor.name}} {{flavor.colors[accent].name}} Color Theme
 ScaleWithDPI=True
 
 [InputPanel]
 Font=Sans 13
+Spacing=3
 
 # Unselected candidate color
 # {{text.name}}
 NormalColor=#{{text.hex}}
-
 # Selected candidate color
 # {{base.name}}
 HighlightCandidateColor=#{{base.hex}}
-
 # Input character color
 # {{flavor.colors[accent].name}}
 HighlightColor=#{{flavor.colors[accent].hex}}
-
 # Input character background color
 # {{surface0.name}}
 HighlightBackgroundColor=#{{surface0.hex}}
-
-Spacing=3
 
 [InputPanel/TextMargin]
 Left=10
