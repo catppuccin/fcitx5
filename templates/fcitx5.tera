@@ -41,6 +41,9 @@ Bottom=8
 # {{surface0.name}}
 Color=#{{surface0.hex}}
 
+# Uncomment this to switch to rounded-corner
+# Image=panel.svg
+
 [InputPanel/Background/Margin]
 Left=10
 Right=10
@@ -50,6 +53,9 @@ Bottom=10
 [InputPanel/Highlight]
 # {{flavor.colors[accent].name}}
 Color=#{{flavor.colors[accent].hex}}
+
+# Uncomment this to switch to rounded-corner
+# Image=highlight.svg
 
 [InputPanel/Highlight/Margin]
 Left=18

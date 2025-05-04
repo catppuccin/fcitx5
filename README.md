@@ -48,18 +48,21 @@ mkdir -p ~/.local/share/fcitx5/themes/
 cp -r ./fcitx5/src/* ~/.local/share/fcitx5/themes
 ```
 
+Or, if you want to enable rounded-border,
+
+```sh
+git clone https://github.com/catppuccin/fcitx5.git
+mkdir -p ~/.local/share/fcitx5/themes/
+./fcitx5/enable-rounded-border.sh
+cp -r ./fcitx5/src/* ~/.local/share/fcitx5/themes
+```
+
 ### Enabling (Manually)
 
 In `~/.config/fcitx5/conf/classicui.conf`, change the `Theme` variable to the following format:
 
 ```dosini
 Theme=catppuccin-{flavour}-{accent}
-```
-
-Or, if you prefer a rounded border:
-
-```dosini
-Theme=catppuccin-{flavour}-{accent}-rounded
 ```
 
 **Flavour** can be one of the following: *latte*, *frappe*, *macchiato* or *mocha*
