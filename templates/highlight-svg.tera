@@ -4,7 +4,7 @@ whiskers:
   matrix:
     - flavor
     - accent
-  filename: "src/catppuccin-{{flavor.identifier}}-{{accent}}-rounded/{{flavor.identifier}}-{{flavor.colors[accent].identifier}}.svg"
+  filename: "src/catppuccin-{{flavor.identifier}}-{{accent}}/highlight.svg"
 ---
 <svg width="39" height="39" version="1.1" xmlns="http://www.w3.org/2000/svg">
   <rect width="39" height="39" rx="8" fill="#{{flavor.colors[accent].hex}}"/>

@@ -32,30 +32,30 @@ HighlightColor=#{{flavor.colors[accent].hex}}
 HighlightBackgroundColor=#{{surface0.hex}}
 
 [InputPanel/TextMargin]
-Left=10
-Right=10
-Top=6
-Bottom=6
+Left=18
+Right=18
+Top=8
+Bottom=8
 
 [InputPanel/Background]
 # {{surface0.name}}
 Color=#{{surface0.hex}}
 
 [InputPanel/Background/Margin]
-Left=2
-Right=2
-Top=2
-Bottom=2
+Left=10
+Right=10
+Top=10
+Bottom=10
 
 [InputPanel/Highlight]
 # {{flavor.colors[accent].name}}
 Color=#{{flavor.colors[accent].hex}}
 
 [InputPanel/Highlight/Margin]
-Left=10
-Right=10
-Top=7
-Bottom=7
+Left=18
+Right=18
+Top=8
+Bottom=8
 
 [Menu]
 Font=Sans 10
