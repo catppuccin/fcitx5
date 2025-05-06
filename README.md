@@ -48,14 +48,20 @@ mkdir -p ~/.local/share/fcitx5/themes/
 cp -r ./fcitx5/src/* ~/.local/share/fcitx5/themes
 ```
 
-Or, if you want to enable rounded-border,
+#### Rounded Border
+
+To enable rounded borders:
 
 ```sh
 git clone https://github.com/catppuccin/fcitx5.git
 mkdir -p ~/.local/share/fcitx5/themes/
-./fcitx5/enable-rounded-border.sh
+./fcitx5/enable-rounded.sh
 cp -r ./fcitx5/src/* ~/.local/share/fcitx5/themes
 ```
+
+To disable rounded borders use `disable-rounded.sh`.
+
+Alternatively, you can enable rounded border by manually uncommenting the corresponding lines 37 and 50 in the `src/catppuccin-*/theme.conf` file before copying the src directory.
 
 ### Enabling (Manually)
 
