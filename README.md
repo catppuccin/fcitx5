@@ -61,6 +61,8 @@ cp -r ./fcitx5/src/* ~/.local/share/fcitx5/themes
 
 To disable rounded borders use `disable-rounded.sh`.
 
+Instead of using a shell script, you can enable rounded borders by manually uncommenting the corresponding lines 37 and 50 in the `src/catppuccin-*/theme.conf` file before copying the `src` directory.
+
 ### Enabling (Manually)
 
 In `~/.config/fcitx5/conf/classicui.conf`, change the `Theme` variable to the following format:
