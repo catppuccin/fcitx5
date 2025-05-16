@@ -1,6 +1,6 @@
 ---
 whiskers:
-  version: 2.5.1
+  version: ^2.5.1
   matrix:
     - flavor
     - accent
@@ -9,57 +9,59 @@ whiskers:
 # vim: ft=dosini
 [Metadata]
 Name=Catppuccin {{flavor.name}} {{flavor.colors[accent].name}}
-Version=0.2
-Author=justTOBBI and Isabelinc
+Version=1.0
+Author=justTOBBI, Isabelinc, Kurome
 Description=Catppuccin {{flavor.name}} {{flavor.colors[accent].name}} Color Theme
 ScaleWithDPI=True
 
 [InputPanel]
 Font=Sans 13
+Spacing=3
 
 # Unselected candidate color
 # {{text.name}}
 NormalColor=#{{text.hex}}
-
 # Selected candidate color
 # {{base.name}}
 HighlightCandidateColor=#{{base.hex}}
-
 # Input character color
 # {{flavor.colors[accent].name}}
 HighlightColor=#{{flavor.colors[accent].hex}}
-
 # Input character background color
 # {{surface0.name}}
 HighlightBackgroundColor=#{{surface0.hex}}
 
-Spacing=3
-
 [InputPanel/TextMargin]
-Left=10
-Right=10
-Top=6
-Bottom=6
+Left=18
+Right=18
+Top=8
+Bottom=8
 
 [InputPanel/Background]
 # {{surface0.name}}
 Color=#{{surface0.hex}}
 
+# Uncomment this to switch to rounded-corner
+# Image=panel.svg
+
 [InputPanel/Background/Margin]
-Left=2
-Right=2
-Top=2
-Bottom=2
+Left=10
+Right=10
+Top=10
+Bottom=10
 
 [InputPanel/Highlight]
 # {{flavor.colors[accent].name}}
 Color=#{{flavor.colors[accent].hex}}
 
+# Uncomment this to switch to rounded-corner
+# Image=highlight.svg
+
 [InputPanel/Highlight/Margin]
-Left=10
-Right=10
-Top=7
-Bottom=7
+Left=18
+Right=18
+Top=8
+Bottom=8
 
 [Menu]
 Font=Sans 10

@@ -20,18 +20,22 @@
 <details>
 <summary>🌻 Latte</summary>
 <img src="assets/latte.webp"/>
+<img src="assets/latte-rounded.webp"/>
 </details>
 <details>
 <summary>🪴 Frappé</summary>
 <img src="assets/frappe.webp"/>
+<img src="assets/frappe-rounded.webp"/>
 </details>
 <details>
 <summary>🌺 Macchiato</summary>
 <img src="assets/macchiato.webp"/>
+<img src="assets/macchiato-rounded.webp"/>
 </details>
 <details>
 <summary>🌿 Mocha</summary>
 <img src="assets/mocha.webp"/>
+<img src="assets/mocha-rounded.webp"/>
 </details>
 
 ## Usage
@@ -43,6 +47,21 @@ git clone https://github.com/catppuccin/fcitx5.git
 mkdir -p ~/.local/share/fcitx5/themes/
 cp -r ./fcitx5/src/* ~/.local/share/fcitx5/themes
 ```
+
+#### Rounded Border
+
+To enable rounded borders:
+
+```sh
+git clone https://github.com/catppuccin/fcitx5.git
+mkdir -p ~/.local/share/fcitx5/themes/
+./fcitx5/enable-rounded.sh
+cp -r ./fcitx5/src/* ~/.local/share/fcitx5/themes
+```
+
+To disable rounded borders use `disable-rounded.sh`.
+
+Instead of using a shell script, you can enable rounded borders by manually uncommenting the corresponding lines in the `src/catppuccin-*/theme.conf` file before copying the `src` directory.
 
 ### Enabling (Manually)
 
@@ -60,6 +79,8 @@ e.g.
 ```dosini
 Theme=catppuccin-mocha-mauve
 ```
+
+See [Palette](https://catppuccin.com/palette/).
 
 Later restart Fcitx5 to apply the theme.
 
