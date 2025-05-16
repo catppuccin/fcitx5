@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -euo pipefail
+
 target_highlight="Image=highlight.svg"
 enable_highlight="# Image=highlight.svg"
 target_panel="Image=panel.svg"
